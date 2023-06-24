@@ -1,0 +1,122 @@
+header {
+  background-color: #333333;
+  .head_element {
+    padding-top: 6px;
+    .call_number {
+      i {
+        color: #ccc;
+        margin: 3px 4px;
+      }
+      p {
+        color: #ccc;
+        font-size: 14px;
+      }
+    }
+    .lang {
+      position: relative;
+
+      ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+
+      li {
+        padding: 5px 10px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #f0f0f0;
+        }
+      }
+
+      &:hover ul {
+        display: block;
+      }
+
+      gap: 1rem;
+      i {
+        font-size: 10px;
+      }
+      p {
+        color: #ccc;
+        font-size: 14px;
+      }
+    }
+  }
+  .head_search {
+    padding-top: 20px;
+
+    .logo {
+      margin-right: 187px;
+
+      img {
+        display: block;
+      }
+    }
+
+    .search_input {
+      flex-grow: 1;
+
+      .possit {
+        position: relative;
+
+        input {
+          width: 524px;
+          border-radius: 20px;
+          padding: 12px 60px;
+
+          & + i.fa-magnifying-glass {
+            position: absolute;
+            bottom: 15px;
+            left: 17px;
+          }
+        }
+      }
+    }
+
+    .head_basically {
+      display: flex;
+
+      margin-left: 120px;
+
+      .compare {
+        i {
+          color: white;
+          font-size: 20px;
+        }
+        p {
+            margin-right: 15px;
+            color: white;
+        }
+      }
+      .wishlist{
+        i {
+            color: white;
+            font-size: 20px;
+          }
+          p {
+              margin-right: 15px;
+              color: white;
+          }
+      }
+      .cart {
+        margin-left: 10px;
+        i {
+            color: white;
+            font-size: 20px;
+            
+          }
+          p {
+            color: white;
+              margin-right: 15px;
+          }
+      }
+    }
+  }
+}

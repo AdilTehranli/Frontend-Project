@@ -1,0 +1,101 @@
+header {
+  background-color: #333333;
+}
+header .head_element {
+  padding-top: 6px;
+}
+header .head_element .call_number i {
+  color: #ccc;
+  margin: 3px 4px;
+}
+header .head_element .call_number p {
+  color: #ccc;
+  font-size: 14px;
+}
+header .head_element .lang {
+  position: relative;
+  gap: 1rem;
+}
+header .head_element .lang ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+header .head_element .lang li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+header .head_element .lang li:hover {
+  background-color: #f0f0f0;
+}
+header .head_element .lang:hover ul {
+  display: block;
+}
+header .head_element .lang i {
+  font-size: 10px;
+}
+header .head_element .lang p {
+  color: #ccc;
+  font-size: 14px;
+}
+header .head_search {
+  padding-top: 20px;
+}
+header .head_search .logo {
+  margin-right: 187px;
+}
+header .head_search .logo img {
+  display: block;
+}
+header .head_search .search_input {
+  flex-grow: 1;
+}
+header .head_search .search_input .possit {
+  position: relative;
+}
+header .head_search .search_input .possit input {
+  width: 524px;
+  border-radius: 20px;
+  padding: 12px 60px;
+}
+header .head_search .search_input .possit input + i.fa-magnifying-glass {
+  position: absolute;
+  bottom: 15px;
+  left: 17px;
+}
+header .head_search .head_basically {
+  display: flex;
+  margin-left: 120px;
+}
+header .head_search .head_basically .compare i {
+  color: white;
+  font-size: 20px;
+}
+header .head_search .head_basically .compare p {
+  margin-right: 15px;
+  color: white;
+}
+header .head_search .head_basically .wishlist i {
+  color: white;
+  font-size: 20px;
+}
+header .head_search .head_basically .wishlist p {
+  margin-right: 15px;
+  color: white;
+}
+header .head_search .head_basically .cart {
+  margin-left: 10px;
+}
+header .head_search .head_basically .cart i {
+  color: white;
+  font-size: 20px;
+}
+header .head_search .head_basically .cart p {
+  color: white;
+  margin-right: 15px;
+}/*# sourceMappingURL=style.css.map */
