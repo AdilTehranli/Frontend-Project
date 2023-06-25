@@ -115,11 +115,47 @@ header .all_nav .dropdown {
   position: relative;
   display: inline-block;
 }
+header .all_nav .dropdown .arrow1 {
+  margin-top: -12px;
+  margin-left: 22px;
+  font-size: 10px;
+}
+header .all_nav .dropdown .x {
+  display: none;
+}
+header .all_nav .dropdown i {
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+header .all_nav .dropdown span {
+  margin-top: 30px;
+}
 header .all_nav .dropdown:hover .dropdown-content {
   display: block;
 }
 header .all_nav .dropdown:hover .dropbtn {
   background-color: #fcb941;
+  color: #f0f0f0;
+}
+header .all_nav .dropdown:hover .arrow1 {
+  margin-top: -12px;
+  margin-left: 22px;
+  font-size: 10px;
+}
+header .all_nav .dropdown:hover .x {
+  display: block;
+  color: #f1f1f1;
+}
+header .all_nav .dropdown:hover i {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 header .all_nav .dropdown-content {
   display: none;
@@ -137,4 +173,25 @@ header .all_nav .dropdown-content a {
 }
 header .all_nav .dropdown-content a:hover {
   background-color: #f1f1f1;
+}
+header .all_nav .orders {
+  margin-top: 18px;
+}
+header .all_nav .orders .dropdown_orders {
+  display: block;
+}
+header .all_nav .orders .dropdown_orders a {
+  text-decoration: none;
+}
+header .all_nav .orders ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+header .all_nav .orders ul li:hover {
+  color: #fcb941;
+  cursor: pointer;
+}
+header .all_nav .orders ul #home:hover .dropdown_orders {
+  display: none !important;
 }/*# sourceMappingURL=style.css.map */
