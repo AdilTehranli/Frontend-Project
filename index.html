@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -149,9 +150,11 @@
 
                   <p>Daily Deals</p>
                   <h4>AirPods Earphones</h4>
-                  <h5>Today: <h3>$257</h3>
+                  <h5>
+                    Today: 
                   </h5>
-                  <button>click here</button>
+                  <h3>$257</h3>
+                  <button id="btn">click here</button>
 
                 </div>
               </div>
@@ -160,7 +163,17 @@
               <img src="img/slide-2.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
 
-                <p>Some representative placeholder content for the second slide.</p>
+                <div class="one_slider">
+
+                  <p> Deals and Promitions</p>
+                  <h4>Echo Dot 3rd Gen</h4>
+                  <h5>
+                    <del>$49,99</del> 
+                  </h5>
+                  <h3>$29.99</h3>
+                  <button id="btn">click here</button>
+
+                </div>
               </div>
             </div>
           </div>
@@ -190,12 +203,19 @@
             <img src="https://d-themes.com/react/molla/demo-3/images/home/banners/banner-2.jpg  " alt="">
           </div>
           <div class="clearance_title">
-            <p>top product</p>
-            <h3>Edifier stereo Bluetooth</h3>
+            <p>Cleareance</p>
+            <h3>GoPro - Fusion 360</h3>
+            <h4>Save $70</h4>
             <a href="#">Shop now</a>
           </div>
           <div class="featured">
             <img src="https://d-themes.com/react/molla/demo-3/images/home/banners/banner-3.jpg" alt="">
+          </div>
+          <div class="featured_title">
+            <p>Featured</p>
+            <h3>Apple Watch 4</h3>
+            <h4>Our hottest Deals</h4>
+            <a href="#">Shop now</a>
           </div>
         </div>
 
@@ -203,19 +223,83 @@
     </div>
   </section>
 
+  <section>
+    <div class="container">
+      <div class="grates d-flex">
+        <h2>Featured</h2>
+        <h2>On Sale</h2>
+        <h2>Top Rated</h2>
+
+      </div>
+     <div class="all_cart_slider d-flex">
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://d-themes.com/react_asset_api/molla/uploads/product_3_2_300x300_1953e6bf05.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Accessories, Smartwatches</h5>
+          <p class="card-text">Apple - Watch Series 3 with White Sport Band</p>
+          <h4>$214.99-$217.99</h4>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://d-themes.com/react_asset_api/molla/uploads/product_5_2_300x300_100e169228.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Accessories, Video Games,Entartain...</h5>
+          <p class="card-text">Microsoft - Refurbish Xbox One S 500GB</p>
+          <h4>$279.99</h4>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://d-themes.com/react_asset_api/molla/uploads/product_6_2_300x300_b12d6f87d6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Camcorders, Cameras</h5>
+          <p class="card-text">Sony - Aplha a5100 Mirrorless Camera</p>
+          <h4 >$499.99</h4>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://d-themes.com/react_asset_api/molla/uploads/product_15_2_300x300_264b8b9e00.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Camcorders, Camera</h5>
+          <p class="card-text">Canon - EOS 5D Mark IV DSLR Camera</p>
+          <h4 >$359.99</h4>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://d-themes.com/react_asset_api/molla/uploads/product_14_2_300x300_aa41f75b41.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tablets, Entertainment, Cell Phone C...</h5>
+          <p class="card-text">Google - Pixel 6.2-Inch 3 XL 128GB</p>
+          <h4>$40.00</h4>
+        </div>
+      </div>
+
+    
+
+      
+
+     </div>
+     
+    </div>
+  </section>
 
 
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="assets/main.js"></script>
 </body>
 
