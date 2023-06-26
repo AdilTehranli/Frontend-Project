@@ -177,12 +177,6 @@ header .all_nav .dropdown-content a:hover {
 header .all_nav .orders {
   margin-top: 18px;
 }
-header .all_nav .orders .dropdown_orders {
-  display: block;
-}
-header .all_nav .orders .dropdown_orders a {
-  text-decoration: none;
-}
 header .all_nav .orders ul {
   list-style: none;
   display: flex;
@@ -192,6 +186,161 @@ header .all_nav .orders ul li:hover {
   color: #fcb941;
   cursor: pointer;
 }
-header .all_nav .orders ul #home:hover .dropdown_orders {
-  display: none !important;
+header .all_nav .orders ul #home:hover .dropdown_home {
+  display: block;
+}
+header .all_nav .orders .dropdown_home {
+  display: none;
+  background-color: #fff;
+  box-shadow: 5px 10px #888888;
+  position: relative;
+  bottom: 18px;
+  height: 300px;
+  width: 700px;
+  z-index: 1;
+}
+header .all_nav .orders .dropdown_home a {
+  text-decoration: none;
+  gap: 30px;
+  margin-left: 40px;
+  margin-top: 50px;
+  color: rgb(115, 112, 112);
+  cursor: pointer;
+}
+header .all_nav .orders .dropdown_home a:hover {
+  color: #fcb941;
+}
+header .all_nav .orders #shop:hover .dropdown_shop {
+  display: block;
+}
+header .all_nav .orders .dropdown_shop {
+  display: none;
+  background-color: #ccc;
+  box-shadow: 5px 10px #888888;
+  position: relative;
+  bottom: 12px;
+  left: 100px;
+  height: 325px;
+  width: 400px;
+  z-index: 1;
+}
+header .all_nav .orders .dropdown_shop a {
+  text-decoration: none;
+  gap: 30px;
+  width: 100px;
+  flex-direction: column;
+  margin-top: 50px;
+  color: rgb(115, 112, 112);
+  cursor: pointer;
+}
+header .all_nav .orders .dropdown_shop a:hover {
+  color: #fcb941;
+}
+header .all_nav .orders #product:hover .dropdown_product {
+  display: block;
+}
+header .all_nav .orders .dropdown_product {
+  display: none;
+  background-color: #ccc;
+  box-shadow: 5px 10px #888888;
+  position: relative;
+  bottom: 12px;
+  left: 200px;
+  height: 325px;
+  width: 400px;
+  z-index: 1;
+}
+header .all_nav .orders .dropdown_product a {
+  text-decoration: none;
+  gap: 30px;
+  width: 100px;
+  flex-direction: column;
+  margin-top: 50px;
+  color: rgb(115, 112, 112);
+  cursor: pointer;
+}
+header .all_nav .orders .dropdown_product a:hover {
+  color: #fcb941;
+}
+header .all_nav .orders #pages:hover .dropdown_pages {
+  display: block;
+}
+header .all_nav .orders .dropdown_pages {
+  display: none;
+  background-color: #ccc;
+  box-shadow: 5px 10px #888888;
+  position: relative;
+  bottom: 12px;
+  left: 280px;
+  height: 325px;
+  width: 200px;
+  z-index: 1;
+}
+header .all_nav .orders .dropdown_pages a {
+  text-decoration: none;
+  gap: 30px;
+  width: 100px;
+  flex-direction: column;
+  margin-top: 50px;
+  color: rgb(115, 112, 112);
+  cursor: pointer;
+}
+header .all_nav .orders .dropdown_pages a:hover {
+  color: #fcb941;
+}
+header .all_nav .orders #blog:hover .dropdown_blog {
+  display: block;
+}
+header .all_nav .orders .dropdown_blog {
+  display: none;
+  background-color: #ccc;
+  box-shadow: 5px 10px #888888;
+  position: relative;
+  bottom: 12px;
+  left: 370px;
+  display: flex;
+  flex-direction: column;
+  height: 325px;
+  width: 200px;
+  z-index: 1;
+}
+header .all_nav .orders .dropdown_blog a {
+  text-decoration: none;
+  gap: 30px;
+  width: 100px;
+  flex-direction: column;
+  margin-top: 50px;
+  color: rgb(115, 112, 112);
+  cursor: pointer;
+}
+header .all_nav .orders .dropdown_blog a:hover {
+  color: #fcb941;
+}
+header .all_nav .orders #elements:hover .dropdown_elements {
+  display: block;
+}
+header .all_nav .orders .dropdown_elements {
+  display: none;
+  background-color: #ccc;
+  box-shadow: 5px 10px #888888;
+  position: relative;
+  bottom: 12px;
+  left: 450px;
+  display: flex;
+  flex-direction: column;
+  height: 325px;
+  width: 200px;
+  z-index: 1;
+}
+header .all_nav .orders .dropdown_elements a {
+  text-decoration: none;
+  gap: 30px;
+  width: 100px;
+  flex-direction: column;
+  margin-top: 50px;
+  color: rgb(115, 112, 112);
+  cursor: pointer;
+}
+header .all_nav .orders .dropdown_elements a:hover {
+  color: #fcb941;
 }/*# sourceMappingURL=style.css.map */
