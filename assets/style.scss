@@ -221,207 +221,104 @@ header {
             cursor: pointer;
           }
         }
-
-        #home {
-          &:hover {
-            .dropdown_home {
-              display: block;
-            }
-          }
-        }
       }
-
-      .dropdown_home {
-        display: none;
-        background-color: #fff;
-        box-shadow: 5px 10px #888888;
-        position: relative;
-        bottom: 18px;
-        height: 300px;
-        width: 700px;
-        a {
-          text-decoration: none;
-          gap: 30px;
-          margin-left: 40px;
-          margin-top: 50px;
-          color: rgb(115, 112, 112);
-          cursor: pointer;
-
-          &:hover {
-            color: #fcb941;
-          }
-        }
-        z-index: 1;
-      }
-
-      #shop {
-        &:hover {
-          .dropdown_shop {
-            display: block;
-          }
-        }
-      }
-      .dropdown_shop {
-        display: none;
-        background-color: #ccc;
-        box-shadow: 5px 10px #888888;
-        position: relative;
-        bottom: 12px;
-        left: 100px;
-        height: 325px;
-        width: 400px;
-        a {
-          text-decoration: none;
-          gap: 30px;
-          width: 100px;
-          flex-direction: column;
-          margin-top: 50px;
-          color: rgb(115, 112, 112);
-          cursor: pointer;
-  
-          &:hover {
-            color: #fcb941;
-          }
-        }
-        z-index: 1;
-      }
-
-
-      #product {
-        &:hover {
-          .dropdown_product {
-            display: block;
-          }
-        }
-      }
-      .dropdown_product {
-        display: none;
-        background-color: #ccc;
-        box-shadow: 5px 10px #888888;
-        position: relative;
-        bottom: 12px;
-        left: 200px;
-        height: 325px;
-        width: 400px;
-        a {
-          text-decoration: none;
-          gap: 30px;
-          width: 100px;
-          flex-direction: column;
-          margin-top: 50px;
-          color: rgb(115, 112, 112);
-          cursor: pointer;
-  
-          &:hover {
-            color: #fcb941;
-          }
-        }
-        z-index: 1;
-      }
-
-      #pages {
-        &:hover {
-          .dropdown_pages {
-            display: block;
-          }
-        }
-      }
-      .dropdown_pages {
-        display: none;
-        background-color: #ccc;
-        box-shadow: 5px 10px #888888;
-        position: relative;
-        bottom: 12px;
-        left: 280px;
-        height: 325px;
-        width: 200px;
-        a {
-          text-decoration: none;
-          gap: 30px;
-          width: 100px;
-          flex-direction: column;
-          margin-top: 50px;
-          color: rgb(115, 112, 112);
-          cursor: pointer;
-  
-          &:hover {
-            color: #fcb941;
-          }
-        }
-        z-index: 1;
-      }
-      
-
-      #blog {
-        &:hover {
-          .dropdown_blog {
-            display: block;
-          }
-        }
-      }
-      .dropdown_blog {
-        display: none;
-        background-color: #ccc;
-        box-shadow: 5px 10px #888888;
-        position: relative;
-        bottom: 12px;
-        left: 370px;
-        display: flex;
-        flex-direction: column;
-        height: 325px;
-        width: 200px;
-        a {
-          text-decoration: none;
-          gap: 30px;
-          width: 100px;
-          flex-direction: column;
-          margin-top: 50px;
-          color: rgb(115, 112, 112);
-          cursor: pointer;
-  
-          &:hover {
-            color: #fcb941;
-          }
-        }
-        z-index: 1;
-      }
-
-      
-      #elements {
-        &:hover {
-          .dropdown_elements {
-            display: block;
-          }
-        }
-      }
-      .dropdown_elements {
-        display: none;
-        background-color: #ccc;
-        box-shadow: 5px 10px #888888;
-        position: relative;
-        bottom: 12px;
-        left: 450px;
-        display: flex;
-        flex-direction: column;
-        height: 325px;
-        width: 200px;
-        a {
-          text-decoration: none;
-          gap: 30px;
-          width: 100px;
-          flex-direction: column;
-          margin-top: 50px;
-          color: rgb(115, 112, 112);
-          cursor: pointer;
-  
-          &:hover {
-            color: #fcb941;
-          }
-        }
-        z-index: 1;
-      }
-      
     }
 
+    .clearence{
+      margin-top: 20px;
+      margin-left: 149px; 
+      
+      .icon_light{
+
+        .light_near_p{
+margin-left: 10px;
+        }
+      }
+    }
+  }
+  
+}
+
+section{
+  .one_slider{
+    p{
+      text-align: left;
+      
+      color: #fcb941;
+      font-size: 25px;
+      margin-top: 50px;
+    }
+    h4{
+      color: #333333;
+      text-align: left;
+    }
+  }
+  .carousel-control-prev,
+.carousel-control-next {
+  font-size: 1rem; // Düğme metin boyutunu istediğiniz değere ayarlayın
+  width: 150px; // Düğme genişliğini istediğiniz değere ayarlayın
+
+  color: #333333;
+  background-color: transparent; // Düğme arkaplan rengini istediğiniz değere ayarlayın
+  border: none; // Düğme kenarlık stilini istediğiniz değere ayarlayın
+  
+  &-icon {
+    font-size: 1rem; // İkon boyutunu istediğiniz değere ayarlayın
+    width: 50px; // İkon genişliğini istediğiniz değere ayarlayın
+    height: 20px; // İkon yüksekliğini istediğiniz değere ayarlayın
+    // İkonun diğer özelleştirmelerini yapabilirsiniz
   }
 }
+
+.product_image{
+  .top_product{
+    position: absolute;
+   
+  }
+  .top_product_title{
+    position: relative;
+    p{
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-bottom: 3px;
+    }
+    h3{
+      width: 193px;
+      margin-left: 21px;
+      font-size: 19px;
+    }
+    a{
+      text-decoration: none;
+      color: #fcb941;
+      margin-left: 21px;
+    }
+  }
+  .Clearence{
+    position: absolute;
+    
+  }
+  .clearance_title{
+    position: relative;
+    p{
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-bottom: 3px;
+    }
+    h3{
+      width: 193px;
+      margin-left: 21px;
+      font-size: 19px;
+    }
+    a{
+      text-decoration: none;
+      color: #fcb941;
+      margin-left: 21px;
+    }
+  }
+  .featured{
+    position: relative;
+    
+  }
+}
+}
+
