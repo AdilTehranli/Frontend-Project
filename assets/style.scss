@@ -427,90 +427,137 @@ section {
   }
 }
 
-.deals{
+.deals {
   margin-top: 50px;
   background-color: #f4f7ff;
-  .deals_p{
+  .deals_p {
     padding-top: 50px;
     text-align: center;
   }
-  .all_deal_cart{
+  .all_deal_cart {
     margin-top: 40px;
     justify-content: space-around;
-    .deal_back_image{
+    .deal_back_image {
       position: relative;
-      img{
+      img {
         height: 450px;
       }
-      .deal_back_title{
+      .deal_back_title {
         position: absolute;
         top: 35px;
         left: 30px;
-        .deal_day_p{
-          h4{
-            color: #EF837B;
+        .deal_day_p {
+          h4 {
+            color: #ef837b;
             margin-bottom: 2px;
           }
         }
       }
-      .deal_day_price{
+      .deal_day_price {
         margin-top: 70px;
-        p{
+        p {
           margin-bottom: 3px;
         }
-        h3{
+        h3 {
           font-size: 20px;
         }
-        h6{
+        h6 {
           color: #fcb941;
         }
       }
-      .deal_day_hours{
+      .deal_day_hours {
         margin-top: 60px;
-        img{
+        img {
           width: 170px;
           height: 70px;
         }
       }
     }
-    
-    .deal_cart1{
+
+    .deal_cart1 {
       margin-left: 15px;
-      .card{
-        h5{
+      .card {
+        h5 {
           font-size: 14px;
           width: 290px;
           color: #686464;
           margin-bottom: 2px;
         }
-        p{
+        p {
           width: 240px;
           margin-bottom: 3px;
         }
-        h4{
+        h4 {
           font-size: 20px;
           color: #fcb941;
         }
       }
     }
-    .deal_cart2{
+    .deal_cart2 {
       margin-left: 15px;
     }
   }
-.deal_button{
-  text-align: center;
-  margin-top: 40px;
-  padding-bottom: 40px;
-  button{
-    background-color: #f4f7ff;
-    border-radius: 20px;
-    width: 270px;
-    height: 45px;
-    &:hover{
-      background-color: #fff;
-      color: #fcb941;
+  .deal_button {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    button {
+      background-color: #f4f7ff;
+      border-radius: 20px;
+      width: 270px;
+      height: 45px;
+      &:hover {
+        background-color: #fff;
+        color: #fcb941;
+      }
     }
   }
 }
 
+.trending{
+  .logo_slider{
+    margin-top: 50px;
+    button{
+    width: 10px;
+    
+    }
+    img{
+      gap: 50px;
+     height: 50px;
+     width: 10px;
+    }
+  }
+  .product_treding_title{
+    .titles_trading{
+        margin-top: 80px;
+      justify-content: space-between;
+      .treding_h2{
+      }
+      .treding_unders{
+        margin-top: 15px;
+        ul{
+          display: flex;
+          gap: 20px;
+          li{
+            list-style: none;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+    .trading_cartd{
+      margin-top: 40px;
+      .trading_slider{
+       
+        .trading_cart1{
+          .card{
+          h5{
+              
+          }
+          }
+        }
+      }
+    }
 }

@@ -387,7 +387,7 @@ section .back_image .image_title .image_button_one button {
   left: 30px;
 }
 .deals .all_deal_cart .deal_back_image .deal_back_title .deal_day_p h4 {
-  color: #EF837B;
+  color: #ef837b;
   margin-bottom: 2px;
 }
 .deals .all_deal_cart .deal_back_image .deal_day_price {
@@ -443,4 +443,34 @@ section .back_image .image_title .image_button_one button {
 .deals .deal_button button:hover {
   background-color: #fff;
   color: #fcb941;
+}
+
+.trending .logo_slider {
+  margin-top: 50px;
+}
+.trending .logo_slider button {
+  width: 10px;
+}
+.trending .logo_slider img {
+  gap: 50px;
+  height: 50px;
+  width: 10px;
+}
+.trending .product_treding_title .titles_trading {
+  margin-top: 80px;
+  justify-content: space-between;
+}
+.trending .product_treding_title .titles_trading .treding_unders {
+  margin-top: 15px;
+}
+.trending .product_treding_title .titles_trading .treding_unders ul {
+  display: flex;
+  gap: 20px;
+}
+.trending .product_treding_title .titles_trading .treding_unders ul li {
+  list-style: none;
+  font-size: 15px;
+}
+.trending .trading_cartd {
+  margin-top: 40px;
 }/*# sourceMappingURL=style.css.map */
