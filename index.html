@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -52,7 +52,7 @@
             </div>
 
             <div class="search_input  ">
-              <div class="possit">
+              <div class="possit d-sm-none d-md-none d-lg-block">
                 <input type="text" placeholder="Search product ...">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </div>
@@ -151,7 +151,7 @@
                   <p>Daily Deals</p>
                   <h4>AirPods Earphones</h4>
                   <h5>
-                    Today: 
+                    Today:
                   </h5>
                   <h3>$257</h3>
                   <button id="btn">click here</button>
@@ -168,7 +168,7 @@
                   <p> Deals and Promitions</p>
                   <h4>Echo Dot 3rd Gen</h4>
                   <h5>
-                    <del>$49,99</del> 
+                    <del>$49,99</del>
                   </h5>
                   <h3>$29.99</h3>
                   <button id="btn">click here</button>
@@ -231,59 +231,79 @@
         <h2>Top Rated</h2>
 
       </div>
-     <div class="all_cart_slider d-flex">
+      <div class="all_cart_slider d-flex">
 
-      <div class="card" style="width: 18rem;">
-        <img src="https://d-themes.com/react_asset_api/molla/uploads/product_3_2_300x300_1953e6bf05.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Accessories, Smartwatches</h5>
-          <p class="card-text">Apple - Watch Series 3 with White Sport Band</p>
-          <h4>$214.99-$217.99</h4>
+        <div class="card" style="width: 18rem;">
+          <img src="https://d-themes.com/react_asset_api/molla/uploads/product_3_2_300x300_1953e6bf05.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Accessories, Smartwatches</h5>
+            <p class="card-text">Apple - Watch Series 3 with White Sport Band</p>
+            <h4>$214.99-$217.99</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://d-themes.com/react_asset_api/molla/uploads/product_5_2_300x300_100e169228.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Accessories, Video Games,Entartain...</h5>
+            <p class="card-text">Microsoft - Refurbish Xbox One S 500GB</p>
+            <h4>$279.99</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://d-themes.com/react_asset_api/molla/uploads/product_6_2_300x300_b12d6f87d6.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Camcorders, Cameras</h5>
+            <p class="card-text">Sony - Aplha a5100 Mirrorless Camera</p>
+            <h4>$499.99</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://d-themes.com/react_asset_api/molla/uploads/product_15_2_300x300_264b8b9e00.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Camcorders, Camera</h5>
+            <p class="card-text">Canon - EOS 5D Mark IV DSLR Camera</p>
+            <h4>$359.99</h4>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img style="height: 190px;"
+            src="https://d-themes.com/react_asset_api/molla/uploads/product_14_2_300x300_aa41f75b41.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tablets, Entertainment, Cell Phone C...</h5>
+            <p class="card-text">Google - Pixel 6.2-Inch 3 XL 128GB</p>
+            <h4>$40.00</h4>
+          </div>
+        </div>
+
+      </div>
+      <div class="back_image  ">
+        <img src="https://d-themes.com/react/molla/demo-3/images/home/bg-1.jpg" alt="">
+        <div class="row">
+
+          <div class="image_title d-flex">
+            <div class="image_title_one col-3">
+              <h4>New Deals</h4>
+              <p>Start Daily at 12pm e.t</p>
+            </div>
+            <div class="image_title_two col-4">
+              <p>GetFree SHIPPING* & 5% rewards on everry order with Molla Theme rewards program</p>
+            </div>
+            <div class="image_button_one col-5">
+              <button>Add to Cart for $50.00/yr</button>
+            </div>
+          </div>
+
         </div>
       </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="https://d-themes.com/react_asset_api/molla/uploads/product_5_2_300x300_100e169228.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Accessories, Video Games,Entartain...</h5>
-          <p class="card-text">Microsoft - Refurbish Xbox One S 500GB</p>
-          <h4>$279.99</h4>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="https://d-themes.com/react_asset_api/molla/uploads/product_6_2_300x300_b12d6f87d6.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Camcorders, Cameras</h5>
-          <p class="card-text">Sony - Aplha a5100 Mirrorless Camera</p>
-          <h4 >$499.99</h4>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="https://d-themes.com/react_asset_api/molla/uploads/product_15_2_300x300_264b8b9e00.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Camcorders, Camera</h5>
-          <p class="card-text">Canon - EOS 5D Mark IV DSLR Camera</p>
-          <h4 >$359.99</h4>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="https://d-themes.com/react_asset_api/molla/uploads/product_14_2_300x300_aa41f75b41.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Tablets, Entertainment, Cell Phone C...</h5>
-          <p class="card-text">Google - Pixel 6.2-Inch 3 XL 128GB</p>
-          <h4>$40.00</h4>
-        </div>
-      </div>
-
-    
-
-      
-
-     </div>
-     
     </div>
   </section>
 
@@ -291,14 +311,14 @@
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"></script>
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-  crossorigin="anonymous"></script>
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-  crossorigin="anonymous"></script>
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="assets/main.js"></script>
 </body>

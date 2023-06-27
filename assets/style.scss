@@ -386,5 +386,57 @@ section{
       gap: 20px;
     }
   }
-}
+
+  .all_cart_slider{
+    margin-top: 50px;
+    .card{
+     margin-left: 30px;
+    }
+  }
+  .back_image {
+    margin-top: 70px;
+    position: relative;
+    .image_title {
+      align-items: center;
+      
+     position: absolute;
+     top: 15px;
+     left: 40px;
+     height: 120px;
+     
+     background-color: #fff;
+     .image_title_one{
+      h4{
+        color: #fcb941;
+        text-align: center;
+      }
+      p{
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+     }
+     .image_title_two{
+      p{
+        text-align: center;
+      }
+     }
+     .image_button_one{
+      button{
+        color: #f1f1f1;
+        background-color: #fcb941;
+        border: none;
+        width: 300px;
+        height: 40px;
+        border-radius: 25px;
+      }
+     }
+    }
+  }
+  
+  
+  
+  }
+  
+
 
