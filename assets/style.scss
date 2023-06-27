@@ -612,5 +612,131 @@ margin-bottom: 2px;
       }
     }
   }
+
+}
+
+.social_back_image{
+  margin-top: 70px;
+  background-image: url(https://d-themes.com/react/molla/demo-3/images/home/bg-2.jpg);
+  height: 350px;
+  padding-top: 20px;
+  padding-left: 20px;
+  background-repeat: repeat-x;
+
+  .social_width{
+    padding-top: 25px;
+    padding-bottom: 70px;
+    width: 1077px;
+    background-color: #fff;
+    margin-left: 10px;
+    .social_title1{
+      text-align: center;
+      h3{
+      }
+      p{
+        width: 380px;
+    text-align: center;
+    margin-left: 60px;
+      }
+      .all_social{
+        gap: 12px;
+        justify-content: center;
+        .facebook_icons{
+          background-color: #8F79ED;
+          width: 40px;
+          height: 40px;
+          border-radius: 20px;
+          position: relative;
+          
+          i{
+            position: absolute;
+            top: 12px;
+            left: 15px;
+            color: #fff;
+            
+          }
+        }
+        .twitter_icons{
+          background-color: #79c8ed;
+          width: 40px;
+          height: 40px;
+          border-radius: 20px;
+          position: relative;
+          
+          i{
+            position: absolute;
+            top: 12px;
+            left: 13px;
+            color: #fff;
+            
+          }
+        }
+        .instagram_icons{
+          background-color: #f0aea3;
+          width: 40px;
+          height: 40px;
+          border-radius: 20px;
+          position: relative;
+          
+          i{
+            position: absolute;
+            top: 12px;
+            left: 13px;
+            color: #fff;
+            
+          }
+        }
+        .youtube_icons{
+          background-color: #E66262;
+          width: 40px;
+          height: 40px;
+          border-radius: 20px;
+          position: relative;
+          
+          i{
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            color: #fff;
+            
+          }
+        }
+        .pinterest_icons{
+          background-color: #E66262;
+          width: 40px;
+          height: 40px;
+          border-radius: 20px;
+          position: relative;
+          
+          i{
+            position: absolute;
+            top: 12px;
+            left: 13px;
+            color: #fff;
+            
+          }
+        }
+
+      }
+
+    }
+    .social_title2{
+      h3{
+        text-align: center;
+      }
+      p{
+        text-align: center;
+        font-size: 20px;
+        span{
+          text-align: center;
+          color: #fcb941;
+        }
+      }
+      .social_input{
+        input{
+        }
+      }
+    }
+  }
 }
 }
