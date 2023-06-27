@@ -514,31 +514,30 @@ section {
   }
 }
 
-.trending{
-  .logo_slider{
+.trending {
+  .logo_slider {
     margin-top: 50px;
-    button{
-    width: 10px;
-    
+    button {
+      width: 10px;
     }
-    img{
+    img {
       gap: 50px;
-     height: 50px;
-     width: 10px;
+      height: 50px;
+      width: 10px;
     }
   }
-  .product_treding_title{
-    .titles_trading{
-        margin-top: 80px;
+  .product_treding_title {
+    .titles_trading {
+      margin-top: 80px;
       justify-content: space-between;
-      .treding_h2{
+      .treding_h2 {
       }
-      .treding_unders{
+      .treding_unders {
         margin-top: 15px;
-        ul{
+        ul {
           display: flex;
           gap: 20px;
-          li{
+          li {
             list-style: none;
             font-size: 15px;
           }
@@ -547,17 +546,71 @@ section {
     }
   }
 
-    .trading_cartd{
-      margin-top: 40px;
-      .trading_slider{
-       
-        .trading_cart1{
-          .card{
-          h5{
-              
-          }
+  .trading_cartd {
+    margin-top: 40px;
+    .trading_slider { 
+      .trading_cart1 {
+        .card {
+          h5 {
           }
         }
       }
     }
+  }
+}
+
+.social{
+.all_social_icons{
+  margin-top: 80px;
+  justify-content: space-between;
+  
+  .shipping{
+    gap: 10px;
+    i{
+      font-size: 40px;
+    }
+    .shipping_text{
+      h5{
+margin-bottom: 2px;
+      }
+
+    }
+
+  }
+  .returns{
+    gap: 10px;
+    i{
+      font-size: 50px;
+    }
+    .returns_text{
+      h5{
+        margin-bottom: 1px;
+              }
+
+    }
+  }
+  .info{
+    gap: 10px;
+    i{
+      font-size: 50px;
+    }
+    .info_text{
+      h5{
+        margin-bottom: 1px;
+      }
+    }
+  }
+  .ring{
+    gap: 10px;
+    i{
+      font-size: 50px;
+    }
+    .ring_text{
+      h5{
+        margin-bottom: 1px;
+
+      }
+    }
+  }
+}
 }

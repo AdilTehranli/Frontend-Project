@@ -473,4 +473,44 @@ section .back_image .image_title .image_button_one button {
 }
 .trending .trading_cartd {
   margin-top: 40px;
+}
+.social .all_social_icons {
+  margin-top: 80px;
+  justify-content: space-between;
+}
+.social .all_social_icons .shipping {
+  gap: 10px;
+}
+.social .all_social_icons .shipping i {
+  font-size: 40px;
+}
+.social .all_social_icons .shipping .shipping_text h5 {
+  margin-bottom: 2px;
+}
+.social .all_social_icons .returns {
+  gap: 10px;
+}
+.social .all_social_icons .returns i {
+  font-size: 50px;
+}
+.social .all_social_icons .returns .returns_text h5 {
+  margin-bottom: 1px;
+}
+.social .all_social_icons .info {
+  gap: 10px;
+}
+.social .all_social_icons .info i {
+  font-size: 50px;
+}
+.social .all_social_icons .info .info_text h5 {
+  margin-bottom: 1px;
+}
+.social .all_social_icons .ring {
+  gap: 10px;
+}
+.social .all_social_icons .ring i {
+  font-size: 50px;
+}
+.social .all_social_icons .ring .ring_text h5 {
+  margin-bottom: 1px;
 }/*# sourceMappingURL=style.css.map */
