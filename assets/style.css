@@ -163,7 +163,7 @@ header .all_nav .dropdown-content {
   background-color: #f9f9f9;
   min-width: 255px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 999;
 }
 header .all_nav .dropdown-content a {
   color: black;
@@ -616,4 +616,27 @@ section .back_image .image_title .image_button_one button {
 .social .social_back_image .social_width .social_title2 p span {
   text-align: center;
   color: #fcb941;
+}
+.social .social_back_image .social_width .social_title2 .social_input {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.social .social_back_image .social_width .social_title2 .social_input input {
+  border-radius: 20px;
+  width: 405px;
+  height: 45px;
+}
+.social .social_back_image .social_width .social_title2 .social_input .input-group-append {
+  position: absolute;
+  right: 50px;
+  top: 0px;
+}
+.social .social_back_image .social_width .social_title2 .social_input .input-group-append button {
+  width: 70px;
+  height: 45px;
+  background-color: #fcb941;
+  border-top-right-radius: 50px 50px;
+  border-bottom-right-radius: 50px 50px;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
