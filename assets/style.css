@@ -886,4 +886,34 @@ section .back_image .image_title .image_button_one button {
 .shop-list .list_title p {
   color: #fcb941;
   font-size: 20px;
+}
+
+.products_list .list_switch {
+  margin-top: 10px;
+  gap: 20px;
+}
+.products_list .list_switch p {
+  color: #777;
+  cursor: pointer;
+}
+.products_list .list_switch p:hover {
+  color: #fcb941;
+}
+.products_list .list-all_accordion .accordion-title {
+  justify-content: space-between;
+}
+.products_list .list-all_accordion .accordion-title h6 {
+  color: #fcb941;
+  margin-top: 3px;
+  font-size: 14px;
+}
+.products_list .list-all_accordion .list_accordion .accordion .accordion-item h2 {
+  font-size: 25px;
+}
+.products_list .list-all_accordion .list_accordion .accordion .accordion-item button {
+  border: none;
+  background-color: white;
+}
+.products_list .list-all_accordion .list_accordion .accordion .accordion-item .accordion-collapse .accordion-body ul li {
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */
