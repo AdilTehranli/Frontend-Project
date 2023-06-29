@@ -1074,4 +1074,95 @@ $border-top-color_1: #bbb;
       }
     }
   }
+
+  .bag_products {
+    .product-lists {
+      display: flex;
+      justify-content: space-between;
+
+
+      .sort_list {
+        display: flex;
+        gap: 10px;
+        margin-left: auto;
+      }
+    }
+
+    .women_bag {
+      margin-top: 30px;
+      .bag_img{
+        img{
+          width: 210px;
+        }
+      }
+      .women_bag_title{
+        margin-left: 20px;
+        margin-top: 30px;
+        p{
+          margin-bottom: 1px;
+        }
+        h4{
+          font-size: 18px;
+        }
+        h5{
+          margin-top: 10px;
+         color: #777;
+         font-size:15px;
+         width: 401px;
+         font-weight: 400;
+        }
+        img{
+          margin-top: 18px;
+          width: 90px;
+        }
+      }
+      .women_bag-price{
+        margin-top: 30px;
+        .price_list{
+
+          p{
+            margin-bottom: 5px;
+            color: #fcb941;
+          }
+        }
+        .checked {
+          color: orange;
+
+        }
+        .wishlist_list{
+          margin-top: 12px;
+          gap: 10px;
+          .view{
+            gap: 5px;
+            i{
+              margin-top: 6px;
+            }
+            p{
+              font-size: 14px;
+            }
+          }
+          .wishlists{
+            gap: 5px;
+            i{
+              margin-top: 6px;
+            }
+            p{
+              font-size: 14px;
+            }
+          }
+        }
+        .list_button{
+          margin-top: 13px;
+          button{
+            width: 185px;
+            background-color: #fff;
+            color: #fcb941;
+            height: 40px;
+            border-color: #fcb941;
+            
+          }
+        }
+      }
+    }
+  }
 }

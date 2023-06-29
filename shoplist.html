@@ -1,299 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Molla</title>
     <link rel="icon" href="https://d-themes.com/react/molla/demo-3/images/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
-    
+
 
     <header>
         <div class="header_elements">
-    
-          <div class="container">
-    
-            <div class="head_element d-flex justify-content-between border-bottom">
-              <div class="call_number d-flex">
-                <i class="fa-solid fa-phone"></i>
-                <p>Call: +0123 456 789</p>
-              </div>
-    
-              <div class="lang d-flex">
-                <p>USD <i class="fa-solid fa-chevron-down"></i></p>
-                <ul>
-                  <li>EUR</li>
-                  <li>USD</li>
-                </ul>
-                <p>English <i class="fa-solid fa-chevron-down"></i></p>
-    
-                <p>Sign in / Sign-up</p>
-              </div>
-    
-            </div>
-    
-    
-            <div class="head_search d-flex">
-              <div class="row">
-    
-                <div class="logo ">
-                    <a href="index.html">
 
-                        <img src="https://d-themes.com/react/molla/demo-3/images/logo.png"  alt="">
-                    </a>
+            <div class="container">
+
+                <div class="head_element d-flex justify-content-between border-bottom">
+                    <div class="call_number d-flex">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>Call: +0123 456 789</p>
+                    </div>
+
+                    <div class="lang d-flex">
+                        <p>USD <i class="fa-solid fa-chevron-down"></i></p>
+                        <ul>
+                            <li>EUR</li>
+                            <li>USD</li>
+                        </ul>
+                        <p>English <i class="fa-solid fa-chevron-down"></i></p>
+
+                        <p>Sign in / Sign-up</p>
+                    </div>
+
                 </div>
-    
-                <div class="search_input  ">
-                  <div class="possit d-sm-none d-md-none d-lg-block">
-                    <input type="text" placeholder="Search product ...">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </div>
+
+
+                <div class="head_search d-flex">
+                    <div class="row">
+
+                        <div class="logo ">
+                            <a href="index.html">
+
+                                <img src="https://d-themes.com/react/molla/demo-3/images/logo.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="search_input  ">
+                            <div class="possit d-sm-none d-md-none d-lg-block">
+                                <input type="text" placeholder="Search product ...">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+
+                        <div class="head_basically d-flex ">
+                            <div class="compare">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <p>compare</p>
+                            </div>
+                            <div class="wishlist">
+                                <i class="fa-regular fa-heart"></i>
+                                <p>wishlist</p>
+                            </div>
+
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Cart</p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-    
-                <div class="head_basically d-flex ">
-                  <div class="compare">
-                    <i class="fa-solid fa-code-compare"></i>
-                    <p>compare</p>
-                  </div>
-                  <div class="wishlist">
-                    <i class="fa-regular fa-heart"></i>
-                    <p>wishlist</p>
-                  </div>
-    
-                  <div class="cart">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <p>Cart</p>
-                  </div>
-                </div>
-    
-              </div>
             </div>
-          </div>
         </div>
         <div class="container">
-          <div class="all_nav d-flex">
-            <div class="row">
-    
-              <div class="dropdown ">
-                <i class="fa-solid fa-bars"></i>
-                <i class="x fa-solid fa-x"></i>
-                <button class="dropbtn">browse categories <span> <i
-                      class="arrow1 fa-solid fa-chevron-down"></i></span></button>
-                <div class="dropdown-content">
-                  <a href="#">Electronics</a>
-                  <a href="#">Gift ideas</a>
-                  <a href="#">Beds</a>
-                  <a href="#">Lighting</a>
-                  <a href="#">sofas & sleeper sofas</a>
-                  <a href="#">Storage</a>
-                  <a href="#">Armchairs & Chaises</a>
-                  <a href="#">Decoration</a>
-                  <a href="#">Kitchen Cabinets</a>
-                  <a href="#">Coffee & Tables</a>
-                  <a href="#">Outdoor Furniture</a>
-                </div>
-              </div>
-    
-              <div class="orders">
-    
-                <ul>
-                  <li class="home"><a href="">Home</a> </li>
-                  <li id="shop"><a href="">Shop</a> 
-                    <div class="dropdown_list">
-                      <ul>
-                        <p>shopmarket</p>
-                        <li>
-                          <a href="shoplist.html">Shop List</a>
-                        </li>
-                        <li>
-                          <a href="">Shop grid 2 columns</a>
-                        </li>
-                        <li>
-                          <a href="">Shop grid 3 column</a>
-                        </li>
-                        <li>
-                          <a href="">Shop grid 4 column</a>
-                        </li>
-                        <li>
-                          <a href="">Shop Market</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li id="product"> <a href="">Product</a>
-                    <div class="dropdown_list">
-                      <ul>
-                        <li>
-                          <a href="">Default</a>
-                        </li>
-                        <li>
-                          <a href="">Centered</a>
-                        </li>
-                        <li>
-                          <a href="">Extended Info</a>
-                        </li>
-                        <li>
-                          <a href="">Galery</a>
-                        </li>
-                        <li>
-                          <a href="">Sticky Info</a>
-                        </li>
-                        <li>
-                          <a href="">Boxed With Sidebar</a>
-                        </li>
-                        <li>
-                          <a href="">Full Width</a>
-                        </li>
-                        <li>
-                          <a href="">Masonry Sticky Info</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li id="pages"><a href="">Pages</a>
-                    <div class="dropdown_list">
-                      <ul>
-                        <li>
-                          <a href="">About</a>
-                        </li>
-                        <li>
-                          <a href="">Contact</a>
-                        </li>
-                        <li>
-                          <a href="">Login</a>
-                        </li>
-                        <li>
-                          <a href="">FAQs</a>
-                        </li>
-                        <li>
-                          <a href="">Error 404</a>
-                        </li>
-                        <li>
-                          <a href="">Coming Soon</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li id="blog"><a href="">Blog</a>
-                    <div class="dropdown_list">
-                      <ul>
-                        <li>
-                          <a href="">Classic</a>
-                        </li>
-                        <li>
-                          <a href="">Listing</a>
-                        </li>
-                        <li>
-                          <a href="">Grid</a>
-                        </li>
-                        <li>
-                          <a href="">Masonry</a>
-                        </li>
-                        <li>
-                          <a href="">Mask</a>
-                        </li>
-                        <li>
-                          <a href="">Single Post</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li id="elements"> <a href="">Elements</a>
-                    <div class="dropdown_list">
-                      <ul>
-                        <li>
-                          <a href="">Products</a>
-                        </li>
-                        <li>
-                          <a href="">Titles</a>
-                        </li>
-                        <li>
-                          <a href="">Banners</a>
-                        </li>
-                        <li>
-                          <a href="">Product Category</a>
-                        </li>
-                        <li>
-                          <a href="">Video Banners</a>
-                        </li>
-                        <li>
-                          <a href="">Buttons</a>
-                        </li>
-                        <li>
-                          <a href="">Accordions</a>
-                        </li>
-                        <li>
-                          <a href="">Tabs</a>
-                        </li>
-                        <li>
-                          <a href="">Testimanials</a>
-                        </li>
-                        <li>
-                          <a href="">Blog Posts</a>
-                        </li>
-                        <li>
-                          <a href="">Call to Action</a>
-                        </li>
-                        <li>
-                          <a href="">Icon Boxes</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                </ul>
-    
-    
-              </div>
-    
-              <div class="clearence">
-                <div class="icon_light d-flex">
-                  <i class="fa-regular fa-lightbulb"></i>
-                  <div class="light_near_p">
-                    <p>Clearance Up To 30% off</p>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="dropdown-home">
-                <ul>
-                  <li>
-                    sekiller
-                  </li>
-                  <li>
-                    sekiller
-                  </li>
-                  <li>
-                    sekiller
-                  </li>
-                  <li>
-                    sekiller
-                  </li>
-                  <li>
-                    sekiller
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
+            <div class="all_nav d-flex">
+                <div class="row">
 
-      <section class="shop-list">
+                    <div class="dropdown ">
+                        <i class="fa-solid fa-bars"></i>
+                        <i class="x fa-solid fa-x"></i>
+                        <button class="dropbtn">browse categories <span> <i
+                                    class="arrow1 fa-solid fa-chevron-down"></i></span></button>
+                        <div class="dropdown-content">
+                            <a href="#">Electronics</a>
+                            <a href="#">Gift ideas</a>
+                            <a href="#">Beds</a>
+                            <a href="#">Lighting</a>
+                            <a href="#">sofas & sleeper sofas</a>
+                            <a href="#">Storage</a>
+                            <a href="#">Armchairs & Chaises</a>
+                            <a href="#">Decoration</a>
+                            <a href="#">Kitchen Cabinets</a>
+                            <a href="#">Coffee & Tables</a>
+                            <a href="#">Outdoor Furniture</a>
+                        </div>
+                    </div>
+
+                    <div class="orders">
+
+                        <ul>
+                            <li class="home"><a href="">Home</a> </li>
+                            <li id="shop"><a href="">Shop</a>
+                                <div class="dropdown_list">
+                                    <ul>
+                                        <p>shopmarket</p>
+                                        <li>
+                                            <a href="shoplist.html">Shop List</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Shop grid 2 columns</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Shop grid 3 column</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Shop grid 4 column</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Shop Market</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="product"> <a href="">Product</a>
+                                <div class="dropdown_list">
+                                    <ul>
+                                        <li>
+                                            <a href="">Default</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Centered</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Extended Info</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Galery</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Sticky Info</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Boxed With Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Full Width</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Masonry Sticky Info</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="pages"><a href="">Pages</a>
+                                <div class="dropdown_list">
+                                    <ul>
+                                        <li>
+                                            <a href="">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Login</a>
+                                        </li>
+                                        <li>
+                                            <a href="">FAQs</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Error 404</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Coming Soon</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="blog"><a href="">Blog</a>
+                                <div class="dropdown_list">
+                                    <ul>
+                                        <li>
+                                            <a href="">Classic</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Listing</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Grid</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Masonry</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Mask</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Single Post</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="elements"> <a href="">Elements</a>
+                                <div class="dropdown_list">
+                                    <ul>
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Titles</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Banners</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Product Category</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Video Banners</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Buttons</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Accordions</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Tabs</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Testimanials</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Blog Posts</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Call to Action</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Icon Boxes</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+                    <div class="clearence">
+                        <div class="icon_light d-flex">
+                            <i class="fa-regular fa-lightbulb"></i>
+                            <div class="light_near_p">
+                                <p>Clearance Up To 30% off</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dropdown-home">
+                        <ul>
+                            <li>
+                                sekiller
+                            </li>
+                            <li>
+                                sekiller
+                            </li>
+                            <li>
+                                sekiller
+                            </li>
+                            <li>
+                                sekiller
+                            </li>
+                            <li>
+                                sekiller
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="shop-list">
         <div class="list_title">
             <h3>List</h3>
             <p>Shop</p>
         </div>
-      </section>
+    </section>
 
-      <section class="products_list">
+    <section class="products_list">
         <div class="container">
             <div class="list_switch d-flex ">
                 <p>home <i class="fa-solid fa-chevron-right"></i></p>
@@ -312,78 +314,328 @@
                     <div class="list_accordion">
                         <div class="accordion" id="accordionPanelsStayOpenExample">
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                  Category
-                                </button>
-                              </h2>
-                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                                <div class="accordion-body">
-                                <ul>
-                                    <li>Furniture</li>
-                                    <li>Coffee & Tables</li>
-                                    <li>Lighting</li>
-                                    <li>Decoration</li>
-                                    <li>Electronics</li>
-                                    <li>Beds</li>
-                                    <li>Armchairs & Chaises</li>
-                                    <li>Sodas & Sleeper Sofas</li>
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        Category
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Furniture</li>
+                                            <li>Coffee & Tables</li>
+                                            <li>Lighting</li>
+                                            <li>Decoration</li>
+                                            <li>Electronics</li>
+                                            <li>Beds</li>
+                                            <li>Armchairs & Chaises</li>
+                                            <li>Sodas & Sleeper Sofas</li>
 
-                                </ul>
+                                        </ul>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
 
-                          </div>
+                        </div>
                     </div>
                     <div class="size_accordion">
                         <div class="accordion" id="accordionPanelsStayOpenExample">
                             <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                  Category
-                                </button>
-                              </h2>
-                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                                <div class="accordion-body">
-                                <ul>
-                                    <li>Furniture</li>
-                                    <li>Coffee & Tables</li>
-                                    <li>Lighting</li>
-                                    <li>Decoration</li>
-                                    <li>Electronics</li>
-                                    <li>Beds</li>
-                                    <li>Armchairs & Chaises</li>
-                                    <li>Sodas & Sleeper Sofas</li>
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        Category
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Furniture</li>
+                                            <li>Coffee & Tables</li>
+                                            <li>Lighting</li>
+                                            <li>Decoration</li>
+                                            <li>Electronics</li>
+                                            <li>Beds</li>
+                                            <li>Armchairs & Chaises</li>
+                                            <li>Sodas & Sleeper Sofas</li>
 
-                                </ul>
+                                        </ul>
+                                    </div>
                                 </div>
-                              </div>
                             </div>
 
-                          </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="bag_products col-9">
-                    
+                <div class="bag_products col-9 ">
+                    <div class="product-lists d-flex">
+                        <div class="showing">
+                            <p>Showing 5 of 50 Products</p>
+                        </div>
+                        <div class="sort_list d-flex">
+                            <p>sort by: </p>
+                            <div class="selection">
+
+                                <select name="" id="">
+                                    <option value="">default</option>
+                                    <option value="">Most Popular</option>
+                                    <option value="">Most Reated</option>
+                                    <option value="">Date</option>
+
+
+                                </select>
+                            </div>
+                            <div class="img_sort">
+                                <img src="img/sort.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="women_bag d-flex">
+                        <div class="bag_img">
+                            <img src="https://d-themes.com/react_asset_api/molla/uploads/product_1_1_300x300_a41bf80b40.jpg"
+                                alt="">
+                        </div>
+                        <div class="women_bag_title">
+                            <p>Women</p>
+                            <h4>Beige metal hoop tote bag</h4>
+                            <h5>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero
+                                eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.</h5>
+                            <img src="img/colors.png" alt="">
+                        </div>
+                        <div class="women_bag-price">
+                            <div class="price_list">
+
+                                <p>$75.000-$80.00</p>
+                            </div>
+                            <div class="raiting d-flex">
+
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <p>( 2 Reviews )</p>
+                            </div>
+                            <div class="wishlist_list d-flex">
+                                <div class="view d-flex border-right    ">
+                                    <i class="fa-solid fa-binoculars"></i>
+                                    <p>quick view</p>
+                                </div>
+                                <div class="wishlists d-flex">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>wishlist</p>
+                                </div>
+                            </div>
+                            <div class="list_button">
+                                <button>SELECT OPTIONS</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="women_bag d-flex">
+                        <div class="bag_img">
+                            <img src="https://d-themes.com/react_asset_api/molla/uploads/1_3df6114aa3.jpg" alt="">
+                        </div>
+                        <div class="women_bag_title">
+                            <p>Women</p>
+                            <h4>Beige ring handle circe cross body bag</h4>
+                            <h5>Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
+                                Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat,
+                                lacus</h5>
+                           
+                        </div>
+                        <div class="women_bag-price">
+                            <div class="price_list">
+
+                                <p>$55.00</p>
+                            </div>
+                            <div class="raiting d-flex">
+
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <p>( 2 Reviews )</p>
+                            </div>
+                            <div class="wishlist_list d-flex">
+                                <div class="view d-flex border-right    ">
+                                    <i class="fa-solid fa-binoculars"></i>
+                                    <p>quick view</p>
+                                </div>
+                                <div class="wishlists d-flex">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>wishlist</p>
+                                </div>
+                            </div>
+                            <div class="list_button">
+                                <button>SELECT OPTIONS</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="women_bag d-flex">
+                        <div class="bag_img">
+                            <img src="https://d-themes.com/react_asset_api/molla/uploads/product_2_1_300x300_98e1548d0e.jpg"
+                                alt="">
+                        </div>
+                        <div class="women_bag_title">
+                            <p>Women</p>
+                            <h4>Beige V neck button cardigan</h4>
+                            <h5>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero
+                                eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.</h5>
+                            
+                        </div>
+                        <div class="women_bag-price">
+                            <div class="price_list">
+
+                                <p>$72.00</p>
+                            </div>
+                            <div class="raiting d-flex">
+
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <p>( 2 Reviews )</p>
+                            </div>
+                            <div class="wishlist_list d-flex">
+                                <div class="view d-flex border-right    ">
+                                    <i class="fa-solid fa-binoculars"></i>
+                                    <p>quick view</p>
+                                </div>
+                                <div class="wishlists d-flex">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>wishlist</p>
+                                </div>
+                            </div>
+                            <div class="list_button">
+                                <button>SELECT OPTIONS</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="women_bag d-flex">
+                        <div class="bag_img">
+                            <img src="	https://d-themes.com/react_asset_api/molla/uploads/product_5_2_300x190_7ec8c0ecc8.jpg"
+                                alt="">
+                        </div>
+                        <div class="women_bag_title">
+                            <p>Women</p>
+                            <h4>Black denim dungaree dress</h4>
+                            <h5>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero
+                                eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.</h5>
+                        </div>
+                        <div class="women_bag-price">
+                            <div class="price_list">
+
+                                <p>$60.00</p>
+                            </div>
+                            <div class="raiting d-flex">
+
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <p>( 2 Reviews )</p>
+                            </div>
+                            <div class="wishlist_list d-flex">
+                                <div class="view d-flex border-right    ">
+                                    <i class="fa-solid fa-binoculars"></i>
+                                    <p>quick view</p>
+                                </div>
+                                <div class="wishlists d-flex">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>wishlist</p>
+                                </div>
+                            </div>
+                            <div class="list_button">
+                                <button>SELECT OPTIONS</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="women_bag d-flex">
+                        <div class="bag_img">
+                            <img src="https://d-themes.com/react_asset_api/molla/uploads/5_12a3f8d877.jpg"
+                                alt="">
+                        </div>
+                        <div class="women_bag_title">
+                            <p>Women</p>
+                            <h4>Black faux leather chain trim sandals</h4>
+                            <h5>Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus</h5>
+                        </div>
+                        <div class="women_bag-price">
+                            <div class="price_list">
+
+                                <p>$75.000-$80.00</p>
+                            </div>
+                            <div class="raiting d-flex">
+
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <p>( 2 Reviews )</p>
+                            </div>
+                            <div class="wishlist_list d-flex">
+                                <div class="view d-flex border-right    ">
+                                    <i class="fa-solid fa-binoculars"></i>
+                                    <p>quick view</p>
+                                </div>
+                                <div class="wishlists d-flex">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>wishlist</p>
+                                </div>
+                            </div>
+                            <div class="list_button">
+                                <button>SELECT OPTIONS</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
-      </section>
+    </section>
 
 
 
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-  crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
-<script src="assets/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="assets/main.js"></script>
 </body>
+
 </html>

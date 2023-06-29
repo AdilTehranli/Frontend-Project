@@ -916,4 +916,82 @@ section .back_image .image_title .image_button_one button {
 }
 .products_list .list-all_accordion .list_accordion .accordion .accordion-item .accordion-collapse .accordion-body ul li {
   list-style: none;
+}
+.products_list .bag_products .product-lists {
+  display: flex;
+  justify-content: space-between;
+}
+.products_list .bag_products .product-lists .sort_list {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+.products_list .bag_products .women_bag {
+  margin-top: 30px;
+}
+.products_list .bag_products .women_bag .bag_img img {
+  width: 210px;
+}
+.products_list .bag_products .women_bag .women_bag_title {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.products_list .bag_products .women_bag .women_bag_title p {
+  margin-bottom: 1px;
+}
+.products_list .bag_products .women_bag .women_bag_title h4 {
+  font-size: 18px;
+}
+.products_list .bag_products .women_bag .women_bag_title h5 {
+  margin-top: 10px;
+  color: #777;
+  font-size: 15px;
+  width: 401px;
+  font-weight: 400;
+}
+.products_list .bag_products .women_bag .women_bag_title img {
+  margin-top: 18px;
+  width: 90px;
+}
+.products_list .bag_products .women_bag .women_bag-price {
+  margin-top: 30px;
+}
+.products_list .bag_products .women_bag .women_bag-price .price_list p {
+  margin-bottom: 5px;
+  color: #fcb941;
+}
+.products_list .bag_products .women_bag .women_bag-price .checked {
+  color: orange;
+}
+.products_list .bag_products .women_bag .women_bag-price .wishlist_list {
+  margin-top: 12px;
+  gap: 10px;
+}
+.products_list .bag_products .women_bag .women_bag-price .wishlist_list .view {
+  gap: 5px;
+}
+.products_list .bag_products .women_bag .women_bag-price .wishlist_list .view i {
+  margin-top: 6px;
+}
+.products_list .bag_products .women_bag .women_bag-price .wishlist_list .view p {
+  font-size: 14px;
+}
+.products_list .bag_products .women_bag .women_bag-price .wishlist_list .wishlists {
+  gap: 5px;
+}
+.products_list .bag_products .women_bag .women_bag-price .wishlist_list .wishlists i {
+  margin-top: 6px;
+}
+.products_list .bag_products .women_bag .women_bag-price .wishlist_list .wishlists p {
+  font-size: 14px;
+}
+.products_list .bag_products .women_bag .women_bag-price .list_button {
+  margin-top: 13px;
+}
+.products_list .bag_products .women_bag .women_bag-price .list_button button {
+  width: 185px;
+  background-color: #fff;
+  color: #fcb941;
+  height: 40px;
+  border-color: #fcb941;
 }/*# sourceMappingURL=style.css.map */
