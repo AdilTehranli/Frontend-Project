@@ -1150,6 +1150,9 @@ section .back_image .image_title .image_button_one button {
   font-size: 20px;
 }
 
+.contact_swicth {
+  margin-top: 10px;
+}
 .contact_swicth ul {
   gap: 15px;
   display: flex;
@@ -1168,4 +1171,65 @@ section .back_image .image_title .image_button_one button {
 }
 .contact_address .all_address .address_texts .contact_icons i:hover {
   color: #fcb941;
+}
+
+.connect .connect_titles {
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+.connect .connect_titles h6 {
+  margin-top: 10px;
+  color: #fcb941;
+  font-size: 18px;
+  font-weight: 400;
+}
+.connect .connect_titles p {
+  margin-top: 20px;
+  color: #666;
+}
+.connect .connect_titles .connect_inputs {
+  justify-content: center;
+  gap: 30px;
+}
+.connect .connect_titles .connect_inputs .connect-input {
+  display: flex;
+}
+.connect .connect_titles .connect_inputs .connect-input input {
+  background-color: #efeaea;
+  border: none;
+  padding-left: 20px;
+  height: 40px;
+}
+.connect .connect_titles .contact_subject {
+  margin-top: 20px;
+}
+.connect .connect_titles .contact_subject input {
+  width: 666px;
+  height: 40px;
+  background-color: #efeaea;
+  border: none;
+  padding-left: 20px;
+}
+.connect .connect_titles .contact_subject .textarea_contact {
+  margin-top: 20px;
+}
+.connect .connect_titles .contact_subject .textarea_contact #textar {
+  width: 666px;
+  height: 170px;
+  background-color: #efeaea;
+  border: none;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.connect .connect_titles .contact_subject button {
+  margin-top: 18px;
+  border-color: #fcb941;
+  background-color: white;
+  color: #fcb941;
+  width: 110px;
+  height: 39px;
+}
+.connect .connect_titles .contact_subject button:hover {
+  background-color: #fcb941;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

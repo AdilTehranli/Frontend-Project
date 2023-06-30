@@ -1335,6 +1335,7 @@ $border-top-color_1: #bbb;
   }
 }
 .contact_swicth {
+  margin-top: 10px;
   ul {
     gap: 15px;
     display: flex;
@@ -1363,5 +1364,64 @@ $border-top-color_1: #bbb;
 
 .connect {  
   .connect_titles {
+    margin-top: 40px;
+    padding-bottom: 60px;
+
+    h6{
+      margin-top: 10px;
+      color: #fcb941;
+      font-size: 18px;
+      font-weight: 400;
+    }
+    p{
+      margin-top: 20px;
+      color: #666;
+    }
+    .connect_inputs{
+      justify-content: center;
+      gap: 30px;
+     .connect-input{
+        display: flex;
+        input{
+          background-color: #efeaea;
+          border: none;
+          padding-left: 20px;
+          height: 40px;
+        }
+     } 
+    }
+    .contact_subject{
+      margin-top: 20px;
+      input{
+        width: 666px;
+        height: 40px;
+        background-color: #efeaea;
+        border: none;
+        padding-left:20px ;
+      }
+      .textarea_contact{
+        margin-top: 20px;
+        #textar{
+          width: 666px;
+          height: 170px;
+        background-color: #efeaea;
+          border: none;
+          padding-top: 10px;
+          padding-left: 20px;
+        }
+      }
+      button{
+        margin-top: 18px;
+        border-color: #fcb941;
+        background-color: white;
+        color: #fcb941;
+        width: 110px;
+        height: 39px;
+        &:hover{
+          background-color: #fcb941;
+          color: white;
+        }
+      }
+    }
   }
 }
