@@ -994,4 +994,50 @@ section .back_image .image_title .image_button_one button {
   color: #fcb941;
   height: 40px;
   border-color: #fcb941;
+}
+.products_list .bag_products .swithc_list {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.products_list .bag_products .swithc_list ul {
+  gap: 20px;
+  display: flex;
+}
+.products_list .bag_products .swithc_list ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.about .about_back_img {
+  background-image: url(https://d-themes.com/react/molla/demo-3/images/page-header-bg.jpg);
+}
+.about .about_back_img .about_img_title {
+  text-align: center;
+}
+.about .about_back_img .about_img_title h3 {
+  padding-top: 40px;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 1px;
+}
+.about .about_back_img .about_img_title p {
+  color: #fcb941;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.about .about_switch ul {
+  gap: 35px;
+  display: flex;
+}
+.about .about_switch ul li {
+  list-style: none;
+}
+.about .about_title {
+  margin-top: 70px;
+}
+.about .about_title p {
+  margin-top: 18px;
+  display: flex;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

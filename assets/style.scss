@@ -1164,5 +1164,59 @@ $border-top-color_1: #bbb;
         }
       }
     }
+    .swithc_list{
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      ul{
+        gap: 20px;
+        display: flex;
+        li{
+          list-style: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.about{
+  .about_back_img{
+  background-image: url(https://d-themes.com/react/molla/demo-3/images/page-header-bg.jpg);
+    .about_img_title{
+      text-align: center;
+      h3{
+        padding-top: 40px;
+        font-size: 40px;
+        font-weight:400;
+          margin-bottom: 1px;
+      }
+      p{
+        color: #fcb941;
+        font-size:20px ;
+        padding-bottom: 40px;
+      }
+    }
+  }
+  .about_switch{
+    ul{
+      gap: 35px;
+      display: flex;
+      li{
+        list-style: none;
+      }
+    }
+  }
+
+  .about_title{
+    margin-top: 70px;
+      p{
+        margin-top: 18px;
+        display: flex;
+        text-align: center;
+      }
+  }
+  .about_support{
+    
   }
 }
