@@ -1133,4 +1133,39 @@ section .back_image .image_title .image_button_one button {
 }
 .brands .brands_title .brand_icon_two img {
   height: 40px;
+}
+
+.contact_back_img {
+  background-image: url(https://d-themes.com/react/molla/demo-3/images/page-header-bg.jpg);
+}
+.contact_back_img .contact_title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contact_back_img .contact_title h1 {
+  margin-bottom: 1px;
+}
+.contact_back_img .contact_title p {
+  color: #fcb941;
+  font-size: 20px;
+}
+
+.contact_swicth ul {
+  gap: 15px;
+  display: flex;
+}
+.contact_swicth ul li {
+  list-style: none;
+}
+
+.contact_address {
+  margin-top: 60px;
+}
+.contact_address .all_address .address_texts .contact_icons i {
+  margin-right: 1rem;
+  font-size: 13px;
+  cursor: pointer;
+}
+.contact_address .all_address .address_texts .contact_icons i:hover {
+  color: #fcb941;
 }/*# sourceMappingURL=style.css.map */
