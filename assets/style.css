@@ -1040,4 +1040,43 @@ section .back_image .image_title .image_button_one button {
   margin-top: 18px;
   display: flex;
   text-align: center;
+}
+.about .about_support {
+  margin-top: 60px;
+}
+.about .about_support .design_about i {
+  color: #fcb941;
+  font-size: 35px;
+}
+.about .about_support .design_about h4 {
+  margin-top: 20px;
+}
+.about .about_support .design_about p {
+  width: 313px;
+  color: #333;
+}
+.about .about_client_img {
+  margin-top: 50px;
+  background-image: url(https://d-themes.com/react/molla/demo-3/images/backgrounds/bg-4.jpg);
+  background-repeat: repeat-y;
+}
+.about .about_client_img .about_total {
+  gap: 189px;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+.about .about_client_img .about_total .customer {
+  text-align: center;
+}
+.about .about_client_img .about_total .customer h5 {
+  color: white;
+  font-size: 30px;
+}
+.about .about_client_img .about_total .customer p {
+  color: white;
+  font-size: 20px;
+}
+.about .all_about_cart .card .card-body h6 {
+  font-size: 18px;
+  margin-bottom: 1px;
 }/*# sourceMappingURL=style.css.map */
