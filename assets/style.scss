@@ -1212,8 +1212,7 @@ $border-top-color_1: #bbb;
     margin-top: 70px;
       p{
         margin-top: 18px;
-        display: flex;
-        text-align: center;
+
       }
   }
   .about_support{
@@ -1299,6 +1298,31 @@ $border-top-color_1: #bbb;
       &:hover{
         background-color:#fcb941;
         color: white;
+      }
+    }
+  }
+}
+.brands{
+  margin-top: 110px;
+  padding-bottom: 38px;
+  .brands_title{
+    text-align: center;
+    h4{
+      text-align: center;
+    }
+
+    .brand_icon_one{
+      margin-top: 70px;
+      justify-content: center;
+      gap: 148px;
+      
+    }
+    .brand_icon_two{
+      margin-top: 50px;
+      justify-content: center;
+      gap: 165px;
+      img{
+        height: 40px;
       }
     }
   }

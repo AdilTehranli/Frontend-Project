@@ -1038,8 +1038,6 @@ section .back_image .image_title .image_button_one button {
 }
 .about .about_title p {
   margin-top: 18px;
-  display: flex;
-  text-align: center;
 }
 .about .about_support {
   margin-top: 60px;
@@ -1111,4 +1109,28 @@ section .back_image .image_title .image_button_one button {
 .about .about_button button:hover {
   background-color: #fcb941;
   color: white;
+}
+
+.brands {
+  margin-top: 110px;
+  padding-bottom: 38px;
+}
+.brands .brands_title {
+  text-align: center;
+}
+.brands .brands_title h4 {
+  text-align: center;
+}
+.brands .brands_title .brand_icon_one {
+  margin-top: 70px;
+  justify-content: center;
+  gap: 148px;
+}
+.brands .brands_title .brand_icon_two {
+  margin-top: 50px;
+  justify-content: center;
+  gap: 165px;
+}
+.brands .brands_title .brand_icon_two img {
+  height: 40px;
 }/*# sourceMappingURL=style.css.map */
