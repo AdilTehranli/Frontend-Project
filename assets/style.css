@@ -1076,7 +1076,39 @@ section .back_image .image_title .image_button_one button {
   color: white;
   font-size: 20px;
 }
+.about .all_about_cart .card .card_img {
+  position: relative;
+}
+.about .all_about_cart .card .card_img:hover .middle {
+  display: block;
+}
+.about .all_about_cart .card .card_img img:hover {
+  opacity: 0.3;
+}
+.about .all_about_cart .card .card_img .middle {
+  position: absolute;
+  left: 70px;
+  top: 140px;
+  display: none;
+}
+.about .all_about_cart .card .card_img .middle .icons_midle {
+  gap: 50px;
+}
 .about .all_about_cart .card .card-body h6 {
   font-size: 18px;
   margin-bottom: 1px;
+}
+.about .about_button {
+  margin-top: 50px;
+}
+.about .about_button button {
+  width: 195px;
+  height: 40px;
+  background-color: white;
+  border-color: #fcb941;
+  color: #fcb941;
+}
+.about .about_button button:hover {
+  background-color: #fcb941;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

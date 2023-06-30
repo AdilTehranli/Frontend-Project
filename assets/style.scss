@@ -1257,13 +1257,48 @@ $border-top-color_1: #bbb;
   .all_about_cart{
     .card{
         .card_img{
-          
+          position: relative;
+
+          &:hover .middle{
+            display: block;
+          }
+          img{
+            &:hover{
+              opacity: 0.3;
+            }
+          }
+          .middle{
+            
+            position: absolute;
+            left: 70px;
+            top: 140px;
+            display: none;
+            .icons_midle{
+              gap: 50px;
+
+            }
+          }
         }
       .card-body{
         h6{
           font-size: 18px;
           margin-bottom: 1px;
         }
+      }
+    }
+  }
+  .about_button{
+    margin-top: 50px;
+    button{
+      width: 195px;
+      height: 40px;
+      background-color: white;
+      border-color: #fcb941;
+      color: #fcb941;
+
+      &:hover{
+        background-color:#fcb941;
+        color: white;
       }
     }
   }
