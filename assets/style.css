@@ -112,6 +112,9 @@ header .all_nav .row .dropdown-home {
   z-index: 999;
   display: none;
 }
+header .all_nav .row .dropdown-home.active:hover {
+  display: block;
+}
 header .all_nav .dropbtn {
   background-color: white;
   color: black;
@@ -1232,4 +1235,32 @@ section .back_image .image_title .image_button_one button {
 .connect .connect_titles .contact_subject button:hover {
   background-color: #fcb941;
   color: white;
+}
+
+.login_switch ul {
+  display: flex;
+  gap: 10px;
+}
+.login_switch ul li {
+  list-style: none;
+}
+
+.login_back_img {
+  background-image: url(https://d-themes.com/react/molla/demo-3/images/backgrounds/login-bg.jpg);
+}
+.login_back_img .all-login {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.login_back_img .all-login .login_register {
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.login_back_img .all-login .login_register .login_text {
+  padding-top: 50px;
+  gap: 100px;
 }/*# sourceMappingURL=style.css.map */

@@ -96,3 +96,7 @@ $('.trading_slider').slick({
     }
   ]
 });
+
+$('.home').mouseover(function(){
+  $('.dropdown-home').toggleClass('active')
+})

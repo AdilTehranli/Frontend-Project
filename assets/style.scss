@@ -139,6 +139,11 @@ header {
         z-index: 999;
         display: none;
       }
+      .dropdown-home.active{
+        &:hover{
+          display: block;
+        }
+      }
     }
     .dropbtn {
       background-color: $background-color_1;
@@ -1362,65 +1367,95 @@ $border-top-color_1: #bbb;
   }
 }
 
-.connect {  
+.connect {
   .connect_titles {
     margin-top: 40px;
     padding-bottom: 60px;
 
-    h6{
+    h6 {
       margin-top: 10px;
       color: #fcb941;
       font-size: 18px;
       font-weight: 400;
     }
-    p{
+    p {
       margin-top: 20px;
       color: #666;
     }
-    .connect_inputs{
+    .connect_inputs {
       justify-content: center;
       gap: 30px;
-     .connect-input{
+      .connect-input {
         display: flex;
-        input{
+        input {
           background-color: #efeaea;
           border: none;
           padding-left: 20px;
           height: 40px;
         }
-     } 
+      }
     }
-    .contact_subject{
+    .contact_subject {
       margin-top: 20px;
-      input{
+      input {
         width: 666px;
         height: 40px;
         background-color: #efeaea;
         border: none;
-        padding-left:20px ;
+        padding-left: 20px;
       }
-      .textarea_contact{
+      .textarea_contact {
         margin-top: 20px;
-        #textar{
+        #textar {
           width: 666px;
           height: 170px;
-        background-color: #efeaea;
+          background-color: #efeaea;
           border: none;
           padding-top: 10px;
           padding-left: 20px;
         }
       }
-      button{
+      button {
         margin-top: 18px;
         border-color: #fcb941;
         background-color: white;
         color: #fcb941;
         width: 110px;
         height: 39px;
-        &:hover{
+        &:hover {
           background-color: #fcb941;
           color: white;
         }
+      }
+    }
+  }
+}
+
+.login_switch {
+  ul {
+    display: flex;
+    gap: 10px;
+    li {
+      list-style: none;
+    }
+  }
+}
+.login_back_img {
+  background-image: url(https://d-themes.com/react/molla/demo-3/images/backgrounds/login-bg.jpg);
+  .all-login {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    .login_register {
+      background-color: white;
+      width: 600px;
+      height: 400px;
+
+      display: flex;
+      justify-content: center;
+      .login_text {
+        padding-top: 50px;
+        gap: 100px;
       }
     }
   }
