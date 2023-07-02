@@ -1398,4 +1398,47 @@ section .back_image .image_title .image_button_one button {
 .default_switch_img .all_default_elements .information_elements .defaul_img_texts .addtocart .wishlist p:hover {
   color: #fcb941;
   cursor: pointer;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .default_share {
+  gap: 15px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .default_share .default_icons {
+  margin-top: 5px;
+  gap: 20px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .default_share .default_icons i {
+  cursor: pointer;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .default_share .default_icons i:hover {
+  color: #fcb941;
+}
+
+.comment-default {
+  margin-top: 35px;
+}
+.comment-default .comment_title {
+  display: flex;
+  justify-content: center;
+}
+.comment-default .comment_title ul {
+  gap: 70px;
+  display: flex;
+}
+.comment-default .comment_title ul li {
+  cursor: pointer;
+  font-size: 18px;
+  list-style: none;
+}
+.comment-default .comment_title ul li:hover {
+  color: #fcb941;
+}
+.comment-default .card .cart_default {
+  margin-left: 30px;
+}
+.comment-default .card .cart_default h5 {
+  padding-top: 20px;
+  font-size: 17px;
+}
+.comment-default .card .cart_default p {
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */

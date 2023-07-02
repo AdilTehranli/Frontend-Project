@@ -139,8 +139,8 @@ header {
         z-index: 999;
         display: none;
       }
-      .dropdown-home.active{
-        &:hover{
+      .dropdown-home.active {
+        &:hover {
           display: block;
         }
       }
@@ -1459,50 +1459,49 @@ $border-top-color_1: #bbb;
   display: flex;
   flex-direction: column;
   align-items: center;
- .additional-options{
-  gap: 40px;
-  padding-bottom: 30px;
-  button{
-    border-color: #fcb941;
-    background-color: #fff;
-    color: #fcb941;
-    width: 110px;
-    height: 40px;
-    margin-top: 20px;
-    &:hover{
-      background-color: #fcb941;
-      color: #fff;
-    }
-  }
-  .remember-me{
-    a{
-      margin-left: 25px;
-      text-decoration: none;
-      color:#777;
-      &:hover{
-        color: #fcb941;
-      }
-    }
-  }
- }
- .login_fac_buttons{
-  gap: 40px;
-  .icon_button{
-    button{
-      position: relative;
-      width: 209px;
-      height: 43px;
+  .additional-options {
+    gap: 40px;
+    padding-bottom: 30px;
+    button {
+      border-color: #fcb941;
       background-color: #fff;
-      border-color: #cfcfcf;
+      color: #fcb941;
+      width: 110px;
+      height: 40px;
+      margin-top: 20px;
+      &:hover {
+        background-color: #fcb941;
+        color: #fff;
+      }
     }
-    .icon_google{
-      position: absolute;
-      i{
-       
+    .remember-me {
+      a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: #777;
+        &:hover {
+          color: #fcb941;
+        }
       }
     }
   }
- }
+  .login_fac_buttons {
+    gap: 40px;
+    .icon_button {
+      button {
+        position: relative;
+        width: 209px;
+        height: 43px;
+        background-color: #fff;
+        border-color: #cfcfcf;
+      }
+      .icon_google {
+        position: absolute;
+        i {
+        }
+      }
+    }
+  }
 }
 
 .login_text {
@@ -1523,95 +1522,138 @@ $border-top-color_1: #bbb;
   padding-right: 5px;
   height: 45px;
 }
-.default{
-
-  .deault_swicth{
+.default {
+  .deault_swicth {
     justify-content: space-between;
-    ul{
+    ul {
       display: flex;
       gap: 10px;
-      li{
+      li {
         list-style: none;
-      } 
+      }
     }
   }
 }
-  
-.default_switch_img{
-  .all_default_elements{
-    .click_img{
-      img{
+
+.default_switch_img {
+  .all_default_elements {
+    .click_img {
+      img {
         width: 100px;
         margin-top: 5px;
       }
     }
-    .information_elements{
+    .information_elements {
       margin-left: 15px;
-      img{
+      img {
         width: 400px;
         height: 420px;
       }
-      .defaul_img_texts{
+      .defaul_img_texts {
         margin-left: 30px;
-        .customize_color{
+        .customize_color {
           gap: 20px;
-          img{
+          img {
             height: 20px;
             width: 80px;
-            
           }
         }
-        .customize_size{
+        .customize_size {
           gap: 30px;
-          .list_custm{
+          .list_custm {
             margin-top: 5px;
             gap: 8px;
-            i{
+            i {
               margin-top: 5px;
             }
           }
         }
-        .customize_count{
+        .customize_count {
           margin-top: 10px;
           gap: 30px;
-          
-          button{
+
+          button {
             width: 20px;
             height: 25px;
             border: none;
             background-color: #fff;
-            i{
+            i {
               font-size: 10px;
               text-align: center;
             }
           }
         }
-        .addtocart{
+        .addtocart {
           gap: 30px;
           padding-bottom: 15px;
-          button{
+          button {
             width: 166px;
             background-color: #fff;
             border-color: #fcb941;
             color: #fcb941;
             height: 40px;
           }
-          .wishlist{
+          .wishlist {
             gap: 10px;
             margin-top: 5px;
-            i{
+            i {
               margin-top: 5px;
               color: #fcb941;
             }
-            p{
-              &:hover{
+            p {
+              &:hover {
                 color: #fcb941;
                 cursor: pointer;
               }
             }
           }
         }
+        .default_share {
+          gap: 15px;
+          .default_icons {
+            margin-top: 5px;
+            gap: 20px;
+            i {
+              cursor: pointer;
+              &:hover {
+                color: #fcb941;
+              }
+            }
+          }
+        }
       }
+    }
+  }
+}
+.comment-default{
+  margin-top: 35px;
+  .comment_title{
+    display: flex;
+    justify-content: center;
+    ul{
+      gap: 70px;
+      display: flex;
+      li{
+        cursor: pointer;
+        font-size: 18px;
+      list-style: none;
+      &:hover{
+        color: #fcb941;
+      }
+      }
+    }
+  }
+  .card{
+    .cart_default{
+      margin-left: 30px;
+      h5{
+        padding-top: 20px;
+        font-size: 17px;
+      }
+      p{
+        margin-top: 10px;
+      }
+
     }
   }
 }
