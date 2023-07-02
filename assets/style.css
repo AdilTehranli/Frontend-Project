@@ -1318,4 +1318,15 @@ section .back_image .image_title .image_button_one button {
   padding-left: 5px;
   padding-right: 5px;
   height: 45px;
+}
+
+.default .deault_swicth {
+  justify-content: space-between;
+}
+.default .deault_swicth ul {
+  display: flex;
+  gap: 10px;
+}
+.default .deault_swicth ul li {
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */

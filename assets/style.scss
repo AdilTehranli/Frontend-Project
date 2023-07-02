@@ -1523,4 +1523,17 @@ $border-top-color_1: #bbb;
   padding-right: 5px;
   height: 45px;
 }
+.default{
 
+  .deault_swicth{
+    justify-content: space-between;
+    ul{
+      display: flex;
+      gap: 10px;
+      li{
+        list-style: none;
+      } 
+    }
+  }
+}
+  
