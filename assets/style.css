@@ -1329,4 +1329,73 @@ section .back_image .image_title .image_button_one button {
 }
 .default .deault_swicth ul li {
   list-style: none;
+}
+
+.default_switch_img .all_default_elements .click_img img {
+  width: 100px;
+  margin-top: 5px;
+}
+.default_switch_img .all_default_elements .information_elements {
+  margin-left: 15px;
+}
+.default_switch_img .all_default_elements .information_elements img {
+  width: 400px;
+  height: 420px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts {
+  margin-left: 30px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .customize_color {
+  gap: 20px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .customize_color img {
+  height: 20px;
+  width: 80px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .customize_size {
+  gap: 30px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .customize_size .list_custm {
+  margin-top: 5px;
+  gap: 8px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .customize_size .list_custm i {
+  margin-top: 5px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .customize_count {
+  margin-top: 10px;
+  gap: 30px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .customize_count button {
+  width: 20px;
+  height: 25px;
+  border: none;
+  background-color: #fff;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .customize_count button i {
+  font-size: 10px;
+  text-align: center;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .addtocart {
+  gap: 30px;
+  padding-bottom: 15px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .addtocart button {
+  width: 166px;
+  background-color: #fff;
+  border-color: #fcb941;
+  color: #fcb941;
+  height: 40px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .addtocart .wishlist {
+  gap: 10px;
+  margin-top: 5px;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .addtocart .wishlist i {
+  margin-top: 5px;
+  color: #fcb941;
+}
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts .addtocart .wishlist p:hover {
+  color: #fcb941;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
