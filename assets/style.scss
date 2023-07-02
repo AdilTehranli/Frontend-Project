@@ -1551,6 +1551,10 @@ $border-top-color_1: #bbb;
       }
       .defaul_img_texts {
         margin-left: 30px;
+        h5{
+          color: #fcb941;
+          font-size: 25px;
+        }
         .customize_color {
           gap: 20px;
           img {
@@ -1654,6 +1658,28 @@ $border-top-color_1: #bbb;
         margin-top: 10px;
       }
 
+    }
+  }
+}
+.default_carusel{
+  margin-top: 50px;
+  
+  .carusel_title{
+    justify-content: center;
+  }
+  .carusel_cart{
+    gap: 40px;
+    margin-top: 30px;
+    .card{
+      border: none;
+      #img_carsu{
+        height: 250px;
+      }
+      .card-body{
+ h6{
+  color: #fcb941;
+ }
+      }
     }
   }
 }

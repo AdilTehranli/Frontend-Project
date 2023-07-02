@@ -1345,6 +1345,10 @@ section .back_image .image_title .image_button_one button {
 .default_switch_img .all_default_elements .information_elements .defaul_img_texts {
   margin-left: 30px;
 }
+.default_switch_img .all_default_elements .information_elements .defaul_img_texts h5 {
+  color: #fcb941;
+  font-size: 25px;
+}
 .default_switch_img .all_default_elements .information_elements .defaul_img_texts .customize_color {
   gap: 20px;
 }
@@ -1441,4 +1445,24 @@ section .back_image .image_title .image_button_one button {
 }
 .comment-default .card .cart_default p {
   margin-top: 10px;
+}
+
+.default_carusel {
+  margin-top: 50px;
+}
+.default_carusel .carusel_title {
+  justify-content: center;
+}
+.default_carusel .carusel_cart {
+  gap: 40px;
+  margin-top: 30px;
+}
+.default_carusel .carusel_cart .card {
+  border: none;
+}
+.default_carusel .carusel_cart .card #img_carsu {
+  height: 250px;
+}
+.default_carusel .carusel_cart .card .card-body h6 {
+  color: #fcb941;
 }/*# sourceMappingURL=style.css.map */
