@@ -241,8 +241,7 @@ header {
             }
           }
           position: relative;
-          &:hover {
-          }
+
           &:hover .dropdown_list {
             display: block;
           }
@@ -254,6 +253,7 @@ header {
             display: none;
             width: 200px;
             ul {
+              
               display: block;
               li {
                 a {
@@ -268,7 +268,7 @@ header {
 
     .clearence {
       margin-top: 20px;
-      margin-left: 149px;
+      margin-left: 44px;
 
       .icon_light {
         .light_near_p {
@@ -574,8 +574,7 @@ section {
     .titles_trading {
       margin-top: 80px;
       justify-content: space-between;
-      .treding_h2 {
-      }
+
       .treding_unders {
         margin-top: 15px;
         ul {
@@ -592,14 +591,7 @@ section {
 
   .trading_cartd {
     margin-top: 40px;
-    .trading_slider {
-      .trading_cart1 {
-        .card {
-          h5 {
-          }
-        }
-      }
-    }
+
   }
 }
 
@@ -670,8 +662,7 @@ section {
       margin-left: 10px;
       .social_title1 {
         text-align: center;
-        h3 {
-        }
+
         p {
           width: 380px;
           text-align: center;
@@ -1497,8 +1488,7 @@ $border-top-color_1: #bbb;
       }
       .icon_google {
         position: absolute;
-        i {
-        }
+
       }
     }
   }

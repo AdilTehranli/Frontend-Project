@@ -226,7 +226,7 @@ header .all_nav .orders ul li .dropdown_list ul li a {
 }
 header .all_nav .clearence {
   margin-top: 20px;
-  margin-left: 149px;
+  margin-left: 44px;
 }
 header .all_nav .clearence .icon_light .light_near_p {
   margin-left: 10px;
@@ -514,6 +514,7 @@ section .back_image .image_title .image_button_one button {
 .trending .trading_cartd {
   margin-top: 40px;
 }
+
 .social .all_social_icons {
   margin-top: 80px;
   justify-content: space-between;
@@ -1301,6 +1302,7 @@ section .back_image .image_title .image_button_one button {
 .login_register .login_fac_buttons .icon_button .icon_google {
   position: absolute;
 }
+
 .login_text {
   padding-top: 50px;
   gap: 100px;
